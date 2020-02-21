@@ -256,6 +256,19 @@ h5{
   color:white;
 }
 
+#intro3 {
+
+  width:70%;
+  margin:0 auto;
+  text-align: center;
+  position:relative;
+  font-size: smaller;
+
+}
+
+#left{
+  text-align: left;
+}
 #topic-sen {
   width: 80%;
   border-radius: 50%;
@@ -302,4 +315,17 @@ table, th, td {
   float: left;
   width: 50%;
   padding: 5px;
+}
+
+#contact{
+  font-size:smaller;
+}
+
+.noShow {
+    display:none;
+}
+
+.footer_link {
+    text-alight:right;
+    padding-right: 40px;
 }

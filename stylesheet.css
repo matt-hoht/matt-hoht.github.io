@@ -8,6 +8,10 @@ body {
   }
 }
 
+navbar-toggler-icon{
+  color: white;
+}
+
 @media (max-width: 979px) {
   body {
     padding-top: 0px;
@@ -185,14 +189,26 @@ h5{
   margin: 200px;
 }
 
-#leftmain {
+@media only screen and (min-width: 401px) and (max-width:961px)){
+#leftmobile {
   position: static;
   font-size: small;
   width: 50%;
-  float: left;
+  float: right;
   padding: 150px;
+    }
+  }
 
-}
+@media only screen and (min-width: 961px){
+  #leftmain {
+    position: static;
+    font-size: small;
+    width: 50%;
+    float: left;
+    padding: 150px;
+      }
+    }
+  }
 
 @media only screen and (min-width: 401px){
 #rightmain {

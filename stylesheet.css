@@ -1,0 +1,250 @@
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+.btn-primary, .btn-primary:active, .btn-primary:visited,.btn-primary:focus{
+  background-color: #303C74;
+  border-color:#303C74;
+}
+.btn-primary:hover{
+  background-color: #172357;
+}
+* {box-sizing:border-box}
+
+.navbar-custom{
+  background-color:#303C74;
+}
+
+.navbar-brand{
+  color:white;
+}
+
+.nav-link{
+  color:white;
+}
+
+
+nav a:hover{
+  
+    color: white;
+}
+
+.container {
+  position: relative;
+
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7B84AE;
+}
+
+
+
+/* Caption text */
+.text {
+  color: white;
+ font-size: 30px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+
+}
+
+.container:hover .overlay {
+  opacity: 0.93;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.h1c{
+  color: #303C74;
+}
+
+.h2c{
+  color: #172357;
+}
+
+.b2c{
+  color: #515D91;
+}
+
+
+
+h3{
+  color: #172357;
+}
+
+.h3w{
+  color: white;
+}
+
+h5{
+  color: #07103A;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto; /*Make the grid smaller than the container*/
+  grid-gap: 50px;
+  padding: 50px;
+  align-content: end;
+}
+
+.grid-container > div {
+  text-align: center;
+  position:bottom;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#bottom{
+    disply: flex;
+    flex-direction:column;
+    flew-wrap: wrap;
+    padding:50px;
+    border-radius:50%;
+    margin:50px;
+}
+
+
+#first {
+  width: 80%;
+  border-radius: 50%;
+  padding: 50px;
+  margin: 200px;
+}
+
+#leftmain {
+  font-size: small;
+  width: 50%;
+  float: left;
+  padding: 150px;
+
+}
+
+#rightmain {
+  font-size: small;
+  width: 50%;
+  float: right;
+  padding:10px;
+}
+
+#intro {
+  width: 80%;
+  border-radius: 50%;
+  padding: 50px;
+  margin: 100px;
+}
+
+#intro1 {
+
+  padding: 50px;
+  margin: 100px;
+  background-color: #07103A;
+  color:white;
+}
+
+#topic-sen {
+  width: 80%;
+  border-radius: 50%;
+  padding: 50px;
+  margin: 100px;
+}
+
+#research{
+  width: 80%;
+  border-radius: 50%;
+  padding: 50px;
+  margin: 100px;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+table, th, td {
+  border: 1px solid #07103A;
+  border-collapse: collapse;
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.halfcolumn {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}

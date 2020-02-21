@@ -224,14 +224,14 @@ h5{
     }
   }
 
-@media only screen and (min-width: 401px){
+
 #rightmain {
   font-size: small;
-  width: 50%;
+  max-width: 50%;
   float: right;
-  padding:10px;
+  padding:150px;
 }
-}
+
 
 #intro {
   position: relative;

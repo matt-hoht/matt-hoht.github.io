@@ -34,6 +34,11 @@ navbar-toggler-icon{
   color:white;
 }
 
+.navbar-brand:hover{
+  color: #7B84AE;
+  opacity: 0.8;;
+}
+
 .nav-link{
   color:white;
 }
@@ -53,9 +58,10 @@ navbar-toggler-icon{
 }
 
 
-nav a:hover{
+.navbar-custom .nav-item:hover .nav-link{
 
-    color: white;
+    color: #7B84AE;
+    opacity: 0.8;
 }
 
 @media only screen and (min-width: 401px){

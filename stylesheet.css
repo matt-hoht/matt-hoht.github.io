@@ -1,6 +1,13 @@
 body {
   padding-top: 60px;
 }
+
+@media only screen and (max-width: 400px) {
+  #mobile-pics {
+    max-width:50%
+  }
+}
+
 @media (max-width: 979px) {
   body {
     padding-top: 0px;
@@ -29,14 +36,17 @@ body {
 
 
 nav a:hover{
-  
+
     color: white;
 }
 
+@media only screen and (min-width: 401px){
 .container {
   position: relative;
 
 }
+}
+
 
 .image {
   display: block;
@@ -44,6 +54,7 @@ nav a:hover{
   height: auto;
 }
 
+@media only screen and (min-width: 401px){
 .overlay {
   position: absolute;
   top: 0;
@@ -55,11 +66,12 @@ nav a:hover{
   opacity: 0;
   transition: .5s ease;
   background-color: #7B84AE;
-}
+}}
 
 
 
 /* Caption text */
+@media only screen and (min-width: 401px){
 .text {
   color: white;
  font-size: 30px;
@@ -74,7 +86,7 @@ nav a:hover{
 
 .container:hover .overlay {
   opacity: 0.93;
-}
+}}
 
 
 
@@ -139,6 +151,7 @@ h5{
 }
 
 
+@media only screen and (min-width: 401px){
 .grid-container {
   display: grid;
   grid-template-columns: auto auto; /*Make the grid smaller than the container*/
@@ -152,6 +165,7 @@ h5{
   position:bottom;
   padding: 20px 0;
   font-size: 30px;
+}
 }
 
 #bottom{
@@ -172,6 +186,7 @@ h5{
 }
 
 #leftmain {
+  position: static;
   font-size: small;
   width: 50%;
   float: left;
@@ -179,14 +194,17 @@ h5{
 
 }
 
+@media only screen and (min-width: 401px){
 #rightmain {
   font-size: small;
   width: 50%;
   float: right;
   padding:10px;
 }
+}
 
 #intro {
+  position: relative;
   width: 80%;
   border-radius: 50%;
   padding: 50px;
@@ -195,6 +213,7 @@ h5{
 
 #intro1 {
 
+  position:relative;
   padding: 50px;
   margin: 100px;
   background-color: #07103A;

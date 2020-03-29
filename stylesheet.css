@@ -1,7 +1,18 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 body {
   margin-top: 60px;
   margin-left: 20%;
 }
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
 
 nav{
   position:fixed;
@@ -216,10 +227,12 @@ navbar-toggler-icon{
   padding-top:40px;
   padding-bottom:40px;
 
+
 }
 
 .container:hover{
   text-decoration:underline;
+  color:inherit;
 }
 
 
@@ -445,19 +458,61 @@ h5{
 
 }
 
+.home b4{
+  color: black;
+}
+
 #intro {
   position: relative;
-  width: 80%;
+  width: 100%;
   border-radius: 50%;
-  padding: 50px;
-  margin: 100px;
+
+  padding-right: 100px;
+  padding-top:200px;
+  margin-left: 1px;
+}
+
+#body1 {
+  position: relative;
+  width: 100%;
+  border-radius: 50%;
+
+  padding-right: 100px;
+  padding-top:200px;
+  margin-left: 1px;
+  padding-bottom:100px;
+}
+
+#body2 {
+  position: relative;
+  width: 100%;
+  border-radius: 50%;
+  padding-top:100px;
+  padding-right: 100px;
+
+  margin-left: 1px;
+  padding-bottom:100px;
+}
+
+#body {
+  position: relative;
+  width: 100%;
+  border-radius: 50%;
+
+  padding-right: 100px;
+  padding-top:100px;
+  margin-left: 1px;
 }
 
 #intro1 {
 
   position:relative;
-  padding: 50px;
-  margin: 100px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom:100px;
+  padding-right:100px;
+  padding-left:50px;
+  margin-left: 1px;
   background-color: #07103A;
   color:white;
 }

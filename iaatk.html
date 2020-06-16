@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css"
-    <link rel="stylesheet" media="all" href="css/hover.css" >
-    <link rel="stylesheet"  href="css/all.min.css">
-    <link rel="stylesheet"  href="font-awesome/css/all.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css"
+  <link rel="stylesheet" media="all" href="css/hover.css" >
+  <link rel="stylesheet"  href="css/all.min.css">
+  <link rel="stylesheet"  href="font-awesome/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
   <title> It's All About the Kids. Matt Ho</title>
 </head>
 
 <nav>
   <a href="index.html"> Home </a>
-    <a href="aboutme.html"> About Me</a>
+  <a href="index.html#cti"> Projects </a>
+  <a href="aboutme.html"> About Me</a>
 
-      <a href="pics/RESUME_HoTsunMattew_Ho.pdf" target="_blank"> Resume </a>
+  <a href="pics/RESUME_HoTsunMattew_Ho.pdf" target="_blank"> Resume </a>
 
 
 </nav>
@@ -43,11 +44,18 @@
 </div>
 
 <head>
-  <div id="intro">
-  <h1 class="h1c">
-    It's All About the Kids Foundation:<br> Search Engine
-  </h1>
-</div>
+
+<div class="parallax_iaatk"></div>
+
+  <div id="title">
+    <h1 class="h1c">
+      It's All About the Kids Foundation:<br> Search Engine
+    </h1>
+  </div>
+  <br>
+  <div id="b8font">
+    A bottle-necked problem is seen in a paper-trial check in system. We have visited our client's site to conduct interviews with our user base. We discovered that flipping through the physical check-in sheet takes the most time and there are volunteers idle on the side which can provide help with check-in. We have designed a system using a smart-search system where you can enter either the first name, last name or phone number to quickly record the entry of the visitor. We then incorporated a data-base so our client can make an estimation on how much food to prepare for upcoming weeks based on the entries of visitors recorded by our system.
+  </div>
   <body>
 
     <div id="body1">
@@ -72,7 +80,7 @@
       </h2>
       <br>
       <h3>
-        How is this valuable?
+        Value Proposition. How is this valuable?
       </h3>
       <br>
       <b1>
@@ -89,7 +97,7 @@
     </div>
     <div id="body">
       <h3>
-        Persona. Who uses this product? And what are some of their struggles?
+        Stakeholders. Who uses this product? And what are some of their struggles?
       </h3>
 
       <br>
@@ -158,6 +166,13 @@
     <b2>
       We identify that the bottle-neck problem begins when volunteers take time to search for the entry of the families' names and when families have to repeat their name when volunteers did not quite catch it the first time. Then a line slowly begins to form. During rush hour, the line can last up to 2 minutes.
     </b2>
+    <!-- Trigger the Modal -->
+    <img id="myImg" src="pics/iaatk/iaatk-flowchart.png" class="center" alt="In the previous system, family lines up to get ready to check in. Once they have arrived at the volunteer's table, they will present their first and last name. Volunteers then flip through the entire roster for the exact informations. Once volunteers have confirmed their information, they are then presented with their food packages." style="max-width:700px; filter: drop-shadow(0 0 0.75rem black)" >
+
+    <!-- The Modal -->
+
+
+    <br>
   </div>
 
   <div id="body2">
@@ -292,10 +307,7 @@
     </b1>
   </div>
 
-  <img src="pics/iaatk/iaatk-flowchart.png" alt="" class="center">
 
-
-  <br>
 
   <div id="body">
     <h3>
@@ -303,50 +315,93 @@
 
     </h3>
     <br>
+
     <h5>
       Searching for families
     </h5>
+    <br>
 
-    <b2>
-      <img src="pics/iaatk/main.png" alt="" style="width:60%;height:60%; float: right; overflow: auto; padding-left: 50px;">
-      <ul>
-        <li>The smart search functions similar to any smart search. </li>
-        <li>The auto complete system will match what you have entered and give feedback from the existed data in the database.</li>
-      </ul>
-    </div>
+    <div class="wrapper">
+
+      <div class=right-half>
+    <img id="myImg1" src="pics/iaatk/SearchResult.png" alt="Smart Search looks for the input provided as well as give recommendations that matches most with the users' input." style="width:60%;height:60%; float: right; overflow: auto; padding-left: 50px; filter: drop-shadow(0 0 0.75rem black);">
+        </div>
+
+<div class=left-half>
+         <ul>
+          <li>The smart search functions similar to any smart search. </li>
+          <li>The auto complete system will match what you have entered and give feedback from the existed data in the database.</li>
+        </ul>
+</div>
+
+
+
+</div>
+
 
     <div id="intro">
       <h5>
         Providing confirmation information
       </h5>
       <b2>
-        <img src="pics/iaatk/search.png" alt="" style="width:60%;height:60%; float: right; overflow: auto; padding-left: 50px;">
+        <img id="myImg2" src="pics/iaatk/MainPage1.png" alt="Phone number can be used to confirm with family members. The Family Size number is there to allow for volunteers to provide the accurate amount of food resources for each member." style="width:60%;height:60%; float: right; overflow: auto; padding-top:50px; padding-left: 80px; filter: drop-shadow(0 0 0.75rem black);">
+<br>
+<br>
+          <img id="myImg5" src="pics/iaatk/confirm.png" alt="The confirmation page is provided for family members to confirm their visit to the food bank service." style="width:50%;height:50%; float: right; overflow: auto; padding-top:40px; filter: drop-shadow(0 0 0.75rem black);">
 
-        <br>
-        <br>
         <ul>
           <li>Phone number can also be used as an alternative to check-in to avoid situation of two different families sharing the same name.</li>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+            <li>A confirmation page allows for volunteer to confirm the identify of the family coming in as a replacement of signing with initials.</li>
         </ul>
+
+
       </div>
 
       <div id="intro">
+        <br>
+
+        <br>
+        <div id="grid">
         <h5>
           Tracking data
         </h5>
         <b2>
+
           <ul>
-            <img src="pics/iaatk/final.png" alt="" style="width:60%;height:60%; float: right; overflow: auto; padding-left: 50px;">
-            <li>Data base will then create a new excel file page when you initial a new file. For example, each week by creating a new page, a new tab will be created and it keeps track of which family has signed in at what time and at the end of the day the number of families along with total family members helped is displayed. </li>
+            <img id="myImg4" src="pics/iaatk/statistics.png" alt="Volunteer can select between a timeframe to have the data visable for planning how much food is needed for the upcoming week. It also provides the information for the total amount of visitors in the time period selected." style="width:60%;height:60%; align:right; overflow: auto; padding-top:50px; padding-left: 50px; float:right; filter: drop-shadow(0 0 0.75rem black)">
+            <li>A new entry is entered in our database with first and last name including phone number. The entry will keep track of the total amount of times visited as well as the most recent date visited. The collection of data enables a better prediction on how many people will appear on a given date and using such data we are able to prepare a more accurate amount of food for the families and reduce food waste.  </li>
             <br>
             <br>
-            <li>A confirmation page allows for volunteer to confirm the identify of the family coming in as a replacement of signing with initials.</li>
-            <img src="pics/iaatk/confirm.png" alt="" style="width:60%;height:60%; float: right; overflow: auto; padding-left: 50px;">
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <li>A graph showing the total amount of guests among a selected amount of time can be created. Using this information, we are able to have a better prediction on how much food to prepare to reduce food waste.</li>
+
+            <br>
+            <br>
           </ul>
         </b2>
+        <br>
 
+
+
+</div>
       </div>
 
-      <div id="body1">
+      <div id="intro">
         <br>
         <br>
         <br>
@@ -355,20 +410,23 @@
           On the Go
         </h5>
         <br>
-        <img src="pics/iaatk/iphone.png" alt="" style="width:30%;height:30%; float: right; overflow: auto; padding-left: 50px;">
+        <img src="pics/iaatk/iphone.png" alt="" style="width:30%;height:30%; float: right; overflow: auto; padding-left: 50px; filter: drop-shadow(0 0 0.75rem black)">
         <ul>
           <li>By providing a check-in option using a tablet or mobile phone allows for volunteer to check in the families in line. In return, we are able to cut down the waiting time in line.    </li>
-
+          <br>
+          <br>  <br>
+            <br>
         </div>
 
+
         <br>
         <br>
         <br>
         <br>
+</div>
 
 
-
-        <div id="intro">
+        <div id="intro" style="padding-top:300px;">
           <h3>
             Reflection
             <br>
@@ -386,8 +444,8 @@
           </b2>
         </div>
 
-          <br>
-          <div id="intro1">
+        <br>
+        <div id="intro1">
           <h2>
             Conclusion
             <br>
@@ -406,193 +464,28 @@
           </ul>
         </div>
 
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01" style="width:100%" z-index="-2">
+          <div id="caption"></div>
+        </div>
+
+
+
       </body>
     </head>
   </div>
 
-<!--
+  <!--
   <div class="modal-footer">
 
-    <button type="button" onClick="location.href='cti.html'" class="btn btn-primary">Next Project</button>
-  </div>
--->
-</div>
-</div>
-</div>
-
-
-<!-- Tripsy-->
-
-<!--
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tripsy">Tripsy</button>
-
-<div class="modal bd-example-modal-lg" id="tripsy" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-<h5 class="modal-title" id="exampleModalLongTitle">Tripsy</h5>
-<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-</div>
-
-<div class="modal-body">
-<head>
-<h1>
-Tripsy, your personal Travel Itinerary
-</h1>
-<body>
-<h2>
-Introduction:
-</h2>
-<b1>
-The topic of traveling has often been brought up among my peers during my time in college. However, there are lots of planning to do prior to going on a trip and the planning spans across doing research on different websites, tools and even books. Lots and lots of information are gathered and are often messy and unorganized. It gets even crazier when you try to organize a trip with friends. And now you might run into problems of overlapping information, having difficulty to accommodate everyone.
-</b1>
-<h1>
-How can we create an informative yet organized travel itinerary that is easy to use which can be suitable for one person and a group of friends?
-</h1>
-<b2>
-We want to create an easy-to-use and organized itinerary. that can organize the information for us place an emphasis on creating our own itinerary filled with places that we would like to visit. We have to utilize many different tools from research to booking different air fares to locating a place to stay and there is no one organized way of creating such itinerary.
-</b2>
-
-R&I
-<h2>
-Research & Assumption
-</h2>
-<b2>
-We had a few initial assumptions on travel planning and have listed them below and hopefully create a tool that addressed these assumptions.
-<ul>
-<li>Having to go through different sites are tedious.</li>
-<li>One person in a group does all the planning during travel.</li>
-<li>People have difficulties to begin research when they don’t know where to begin.</li>
-<li>They have narrowed down some criteria on how they planned the trip, trying to cut cost to make it more affordable, experiencing the lifestyle and cultures of the places they visit, and having the freedom of going to places that they really would like to go.</li>
-
-
-</ul>
-We then conducted personal interviews and published online survey on travel planning strategies, time it takes to conduct research, habits and behavior of people who often go on trips. And some of our assumptions are proven wrong.
-<ul>
-<li>Contrast to our own assumption, people enjoy a variety of options so they enjoy visiting multiple sites.</li>
-<li>People tend to enjoy going to places their friends recommend over what the internet suggests.</li>
-<li>People like to cut costs on food and housing by skipping a meal and sharing housing with friends. </li>
-<li>Foreign public transport system can be confusing at times.</li>
-<li>Prefer freedom over schedule.</li>
-
-
-</ul>
-</b2>
-
-<h2>
-Value Proposition
-</h2>
-
-<h3>
-How is this valuable?
-</h3>
-<b2>
-<ul>
-<li>REDUCES STRESS. By having information neatly organized allows you to maximize your time in enjoying yourself during the trip.
-</li>
-<li>CUTTING COST. Knowing where you prioritize and want to go makes it easier to create an appropriate budget and let you know how much you are going to spend.
-</li>
-<li>SAVING TIME. Allowing you to access information quickly lets you be on the go faster. In case of any emergency happens, you can quickly make a plan b using the information provided.
-</li>
-</ul>
-</b2>
-
-<h3>
-Persona. Who uses this product? And what are some of their struggles?
-</h3>
-<b2>
-Young Adult and college students
-<ul>
-<li>We want to see the world with the little money we have. </li>
-<li>I want to have a place where I can store the locations which my friends suggested me to go to.</li>
-<li>I want to plan a trip, make it easy for me</li>
-</ul>
-Working adults who couldn't spend much time on planning an itinerary
-<ul>
-<li>I want to plan a trip, save me time please.</li>
-</ul>
-</b2>
-<h3>
-Where? and When is this product used?
-</h3>
-<b2>
-<ul>
-<li>Before the trip happens at home, doing research and collecting information on the platform.</li>
-<li>After ordering tickets and hotel information, store onto the app.</li>
-<li>During the trip looking up where to go next.</li>
-</ul>
-</b2>
-
-<h2>
-Ideation
-</h2>
-
-<h3>
-How previous system worked
-</h3>
-
-<h3>
-Competitive analysis
-</h3>
-
-<h3>
-Problems to Tackle
-</h3>
-
-<h3>
-System Map
-</h3>
-
-<h3>
-Wireframe
-</h3>
-<b2>
-<img src="pics/tripsy/agenda-w.png" alt="" style="width:30%;height:30%;">
-<img src="pics/tripsy/map-w.png" alt="" style="width:30%;height:30%;">
-<img src="pics/tripsy/hotel-info.png" alt="" style="width:30%;height:30%;">
-Research
-Suggestion -> sort them into different days of events
-Train ride, transportation information
-Based on location
-
-
-Creating itinerary Based on days, 1,2,3,4
-Area for maps/ boarding pass/ hotel information
-Roadmap/ timeline
-Planning roadmap (based on location)
-Create route (maybe) , link to map
-
-</b2>
-<h3>
-Visual Designs
-</h3>
-<b2>
-Used AB testing to determine which version of logo to use
-Mood board
-Typographic exploration
-Primary Typeface
-Ab testing to determine versions
-Seleting one main attraction can provide you suggestion in proximity
-
-</b2>
-<h3>
-Solution
-</h3>
-<b2>
-<img src="pics/tripsy/search.png" alt="" style="width:70%;height:70%;">
-<img src="pics/tripsy/agenda.png" alt="" style="width:70%;height:70%;">
-<img src="pics/tripsy/map.png" alt="" style="width:70%;height:70%;">
-
-</b2>
-
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
+  <button type="button" onClick="location.href='cti.html'" class="btn btn-primary">Next Project</button>
 </div>
 -->
+</div>
+</div>
+</div>
+
 </div>
 </div>
 </div>
@@ -602,3 +495,71 @@ Solution
 
 
 </html>
+
+<script>
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg1");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg2");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg5");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById("myImg4");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+
+</script>

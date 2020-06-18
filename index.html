@@ -13,24 +13,28 @@
 </head>
 
 
-<!--
-<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top noShowDesktop">
 
   <a class="navbar-brand" href="index.html"><!--homepage link what is going on-->
-  <!--
+
     &nbsp&nbsp&nbspMatt Ho </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarCollapse">
+  <div class="collapse navbar-collapse dropdown-menu dropdown-menu-right" id="navbarCollapse">
     <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">&nbsp&nbsp&nbsp&nbspHome</a>
+      </li>
       <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">&nbsp&nbsp&nbsp&nbspProjects</a>
-    <div class="dropdown-menu">
+    <a class="nav-link dropdown-toggle ml-auto" data-toggle="dropdown" href="#">&nbsp&nbsp&nbsp&nbspProjects</a>
+    <div class="dropdown-menu dropdown-menu-right ml-auto">
+        <a class="dropdown-item" href="cti.html">Collaborative Travel Itinerary</a>
       <a class="dropdown-item" href="iaatk.html">It's All About the Kids</a>
-      <a class="dropdown-item" href="cti.html">Collaborative Travel Itinerary</a>
+
     </div></li>
       <li class="nav-item">
         <a class="nav-link" href="pics/RESUME_HoTsunMattew_Ho.pdf" target="_blank">&nbsp&nbsp&nbsp&nbspResume</a>
@@ -41,33 +45,35 @@
     </ul>
   </div>
 </nav>
--->
-<nav>
+
+<nav class="noShowMobile">
   <a href="index.html"> Home </a>
   <a href="index.html#cti"> Projects </a>
     <a href="aboutme.html"> About Me</a>
 
       <a href="pics/RESUME_HoTsunMattew_Ho.pdf" target="_blank"> Resume </a>
-
+<footer id="nav_footer">
+<u><a href="mailto:matt.hoht@gmail.com">matt.hoht@gmail.com</u></a>
+</footer>
 
 </nav>
 
 <body>
 
     <div id="leftmain">
-      <div id="leftmobile">
+
+      <div id="leftmobile" class="indexmobile">
 
       <h2>
         Hi, I am Matt Ho.
       </h2>
-    <b3>
+    <b3 class=noto>
       User Experience Designer and Front-End Developer.
     </b3>
 
     <h6>
       <br>
-      Solving problems presented in the modern world with Human-Centered Design thinking in mind.
-    </h6>
+      I design to solve problems. Contact me at <u><a href="mailto:matt.hoht@gmail.com">matt.hoht@gmail.com</u></a> </h6>
   </div>
 
   </div>
@@ -82,18 +88,20 @@
 </div>
 
 
-  <div id="cti" class="home">
-    <div class="container"><a href="cti.html">
-      <img src="pics/cti/search.png" style="filter: drop-shadow(0 0 0.75rem black); min-width:50%; max-width:100%;"alt="" class="image">
+  <div id="cti" class="home ctimobile">
+    <div class="container container-mobile"><a href="cti.html">
+      <img src="pics/cti/search.png" style="filter: drop-shadow(0 0 0.75rem black); min-width:50%; max-width:100%;"alt="" class="image image-mobile">
       <br>
-    <b4 style="color:#07103A;">
+
+    <b4 class="noto noShowMobile">
       Project
     </b4>
 
-    <h3  style="color:white;", text-transform:bold;>
+    <h3 class="ctipadding">
       Collaborative Travel Itinerary
     </h3>
-    <b4 style="color:#07103A;">
+
+    <b4  class="noto">
 
       Travel itinerary designed for group planning.
     </b4>
@@ -102,20 +110,20 @@
 
 <br>
 
-  <div id="iaatk" class="home">
-    <div class="container"><a href="iaatk.html">
-      <div id="rightSide" class="container">
-      <img src="pics/iaatk/mainpage.png" style="filter: drop-shadow(0 0 0.75rem black); max-width:100%; display:inline-block;"alt="" class="image">
+  <div id="iaatk" class="home iaatkmobile">
+    <div class="container container-mobile"><a href="iaatk.html">
+      <div id="rightSide" class="container container-mobile">
+      <img src="pics/iaatk/mainpage.png" style="filter: drop-shadow(0 0 0.75rem black); min-width:50%; max-width:100%; display:inline-block;"alt="" class="image image-mobile">
       <br>
       <br>
     <span>
-    <b4>
+    <b4 class="noto noShowMobile">
       Project
     </b4>
-    <h3>
+    <h3 class="ctipadding">
       It's All About the Kids
     </h3>
-    <b4>
+    <b4 class=noto>
 
       Search System to eliminate the time spent in line waiting for check-in.
     </b4>
@@ -162,35 +170,58 @@
 
   </body>
 
+<!--
   <style>
 
 @media only screen and (max-width: 400px){
 h3{
   position:relative;
-  margin-top:20%;
   width:80%;
-  padding:50px;
+  margin:5%;
 }
 h6{
   position:relative;
   width:80%;
   margin-left:50px;
 }
+.ctimobile{
+
+  color:white;
+  padding-top:50px;
+  text-transform:bold;
+
+  line-height: 0.8em;
+  position:relative;
+    background-color: #858db2;
+    width:100%;
+    color: #07103A;
+
+  }
+}
 }
 
 @media only screen and (min-width: 401px) and (max-width:960px){
   h3{
     position:relative;
-    margin-top:20%;
+    margin-top:5%;
     width:80%;
-    padding:50px;
+    margin:5%;
   }
   h6{
     position:relative;
     width:80%;
-    margin-left:50px;
+    margin-left:5%;
   }
+
   }
 
   </style>
+-->
   </html>
+  <style>
+  @media (min-width: 481px) and (max-width: 767px){
+    html{
+      margin:10px;
+    }
+  }
+  </style>

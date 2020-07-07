@@ -124,6 +124,20 @@ h6 {
   background-size: cover;
 }
 
+.parallax_landing {
+  /* The image used */
+  background-image: url("pics/landing/banner.webp");
+
+  /* Set a specific height */
+  min-height: 450px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .modal-footer{
   padding-top:50px;
 }
@@ -146,6 +160,22 @@ h6 {
 .parallax_iaatk_footer {
   /* The image used */
   background-image: url("pics/iaatk/cti_footer.jpeg");
+
+  /* Set a specific height */
+  min-height: 150px;
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.75;
+}
+
+.parallax_landing_footer {
+  /* The image used */
+  background-image: url("pics/landing/landing_footer.jpeg");
 
   /* Set a specific height */
   min-height: 150px;
@@ -976,7 +1006,13 @@ a, a:hover, a:focus, a:active {
           font-size:smaller;
         }
 
+        #underline:hover{
+          text-decoration: underline;
+        }
 
+        #shadow:hover{
+          filter: drop-shadow(0 0 0.75rem black);
+        }
 
         #aboutMe{
           margin-top:10px;

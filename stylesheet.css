@@ -953,6 +953,23 @@ a, a:hover, a:focus, a:active {
           margin: 100px;
         }
 
+        .aboutme_parent{
+          display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+        }
+        .aboutme_child1{
+          flex: 1 1 150px; /*  Stretching: */
+
+    margin: 5px;
+        }
+        .aboutme_child2{
+          flex: 1 1 150px; /*  Stretching: */
+
+    margin: 5px;
+        }
+
         .center{
           display: block;
           margin-left: auto;

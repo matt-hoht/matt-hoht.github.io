@@ -182,6 +182,20 @@ h6 {
   background-size: cover;
 }
 
+.parallax_product {
+  /* The image used */
+  background-image: url("pics/landing/storefront.jpg");
+
+  /* Set a specific height */
+  min-height: 450px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallax_landing {
   /* The image used */
   background-image: url("pics/landing/banner.webp");

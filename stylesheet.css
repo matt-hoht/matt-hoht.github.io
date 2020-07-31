@@ -7,8 +7,8 @@ html, body {
 
 @media only screen and (min-width: 767px){
   body {
-    margin-top: 60px;
-    margin-left: 20%;
+
+
   }
 }
 
@@ -31,6 +31,10 @@ h6 {
 
 .noto{
   font-family: "Noto Sans",sans-serif;
+}
+
+.georgia{
+  font-family: "Georgia", georgia;
 }
 
 @media only screen and (min-width: 767px){
@@ -61,7 +65,7 @@ h6 {
 }
 
 
-
+/*
 @media only screen and (min-width: 767px){
   nav{
     position:fixed;
@@ -91,7 +95,7 @@ h6 {
     text-align: right;
     z-index:3;
   }
-
+*/
 
   .underline {
     display: inline;
@@ -101,10 +105,10 @@ h6 {
   .underline:after {
     content: "";
     position: absolute;
-    z-index: 2;
+    z-index: 0;
     right: 0;
     width: 0;
-    bottom: -5px;
+    bottom: -3px;
     background: #000;
     height: 2px;
     transition-property: width;
@@ -162,9 +166,11 @@ h6 {
 
 
 
+
+
 .parallax {
   /* The image used */
-  background-image: url("pics/cti/banner.jpeg");
+  background-image: url("pics/cti/banner.png");
 
   /* Set a specific height */
   min-height: 450px;
@@ -272,29 +278,32 @@ a, a:hover, a:focus, a:active {
 
 
 navbar-toggler-icon{
-  color: white;
+  color: #FFFFFF;
 }
-
-.btn-primary, .btn-primary:active, .btn-primary:visited,.btn-primary:focus{
-  background-color: #303C74;
-  border-color:#303C74;
-}
-.btn-primary:hover{
-  background-color: #172357;
-}
-* {box-sizing:border-box}
 
 .navbar-custom{
-  background-color:#303C74;
+  background-color:#FFFFFF;
+  opacity: 0.7;
 }
 
 .navbar-brand{
-  color:white;
+  color:#000000;
+  font-family: monospace;
+  font-size: 1.5vw;
 }
 
 .navbar-brand:hover{
   color: #7B84AE;
-  opacity: 0.8;;
+  opacity: 0.8;
+}
+
+li{
+
+}
+
+#betweenItem{
+  padding-left:70px;
+  padding-right:70px;
 }
 
 .nav-link{
@@ -316,6 +325,127 @@ navbar-toggler-icon{
 }
 
 
+#titleCard{
+  width:100%;
+  height:100%;
+  background-color: #858db2;
+  margin:auto;
+  padding:auto;
+}
+
+#titleContent{
+  padding-top:300px;
+  display: grid;
+  place-items: center;
+}
+
+#center{
+  display: grid;
+  place-items: center;
+}
+
+#myName{
+  font-size:4vw;
+}
+
+.ctiparent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top:20px;
+  height:100%;
+}
+
+.ctibox {
+  flex: 1 1 400px; /*  Stretching: */
+  /*  No stretching: */
+  margin: 20px;
+  padding: 20px;
+}
+
+.productparent {
+  background-color: #eeeeee;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-top:20px;
+  height:100%;
+}
+
+.productbox {
+  flex: 1 0 700px; /*  Stretching: */
+  /*  No stretching: */
+  margin: 20px;
+  padding: 20px;
+}
+
+.iaatkparent {
+  background-color: #e0e0e0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-top:20px;
+  padding-left:20px;
+  height:100%;
+}
+
+.iaatkbox {
+  flex: 1 0 700px; /*  Stretching: */
+  /*  No stretching: */
+  margin: 20px;
+  padding: 20px;
+}
+
+.buttonparent{
+  display: flex;
+  justify-content: flex-end;
+  padding-top:50px;
+}
+
+.buttonbox{
+
+}
+
+.btn-three {
+	color: #000;
+	transition: all 0.5s;
+	position: relative;
+}
+.btn-three::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.3s;
+}
+.btn-three:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn-three::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(255,255,255,0.5);
+	transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
 
 
 #wrapper {
@@ -369,8 +499,9 @@ navbar-toggler-icon{
 }
 
 
-.button-home:hover{
-  box-shadow: 0 7px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.35);
+
+li{
+
 }
 
 .navbar-custom .nav-item:hover .nav-link{
@@ -637,8 +768,9 @@ navbar-toggler-icon{
             background-color: #858db2;
             color:white;
             margin:auto;
+            height:70%;
 
-            width:100%
+            width:80%
           }
         }
 
@@ -696,6 +828,7 @@ navbar-toggler-icon{
             text-align: left;
             margin:auto;
             width: 100%;
+            height:100%;
           }
         }
 
@@ -854,25 +987,29 @@ navbar-toggler-icon{
           border-radius: 50%;
 
           padding-right: 100px;
-          padding-top:50px;
-          margin-left: 1px;
+          padding-left: 50px;
+          padding-top:200px;
+          margin-left: 50px;
+          margin-right:50px;
         }
 
         #b8font{
-          width:50%;
+          width:80%;
           padding-left:3px;
           margin-left:3px;
-          font-size:12px;
+          font-size:14px;
         }
 
         #body1 {
           position: relative;
           width: 100%;
-          border-radius: 50%;
+
 
           padding-right: 100px;
+          padding-left: 50px;
           padding-top:200px;
-          margin-left: 1px;
+          margin-left: 50px;
+          margin-right:50px;
           padding-bottom:100px;
         }
 
@@ -894,8 +1031,11 @@ navbar-toggler-icon{
           border-radius: 50%;
 
           padding-right: 100px;
-          padding-top:100px;
-          margin-left: 1px;
+          padding-left: 50px;
+          padding-top: 100px;
+          margin-left: 50px;
+          margin-right:50px;
+          padding-bottom:100px;
         }
 
         #reflection {
@@ -904,20 +1044,24 @@ navbar-toggler-icon{
           border-radius: 50%;
 
           padding-right: 100px;
+          padding-left: 50px;
           padding-top:100px;
+          margin-left: 50px;
+          margin-right:50px;
           padding-bottom:100px;
-          margin-left: 1px;
         }
 
         #intro1 {
 
           position:relative;
           width: 100%;
-          padding-top: 100px;
+          padding-right: 100px;
+          padding-left: 100px;
+          padding-top:100px;
+
+          margin-right:50px;
           padding-bottom:100px;
-          padding-right:100px;
-          padding-left:50px;
-          margin-left: 1px;
+
           background-color: #07103A;
           color:white;
         }

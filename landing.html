@@ -14,60 +14,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-custom fixed-top noShowDesktop">
+<div class="noShowMobile">
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
 
-  <a class="navbar-brand" href="index.html"><!--homepage link what is going on-->
+  <a class="navbar-brand" href="index.html" style=""><!--homepage link what is going on-->
 
     &nbsp&nbsp&nbspMatt Ho </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse dropdown-menu dropdown-menu-right" id="navbarCollapse">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">&nbsp&nbsp&nbsp&nbspHome</a>
-      </li>
-      <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle ml-auto" data-toggle="dropdown" href="#">&nbsp&nbsp&nbsp&nbspProjects</a>
-    <div class="dropdown-menu dropdown-menu-right ml-auto">
-        <a class="dropdown-item" href="cti.html">Collaborative Travel Itinerary</a>
-          <a class="dropdown-item" href="landing.html">Product Landing Page</a>
-      <a class="dropdown-item" href="iaatk.html">It's All About the Kids</a>
 
 
-    </div></li>
-      <li class="nav-item">
-        <a class="nav-link" href="pics/RESUME_HoTsunMattew_Ho.pdf" target="_blank">&nbsp&nbsp&nbsp&nbspResume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="aboutme.html">&nbsp&nbsp&nbsp&nbspAbout Me</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div class="navbar-nav text-center mx-auto" >
+      <div id="betweenItem">
+        <li class="nav-item">
+          <a class="nav-link underline" href="index.html#cti" style="font-size:0.9vw;"><b>PROJECTS</b></a>
+        </li>
+      </div>
 
-<nav class="noShowMobile">
-  <a href="index.html">
-    <div class="underline"> Home </div></a>
-  <a href="index.html#cti">
-    <div class="underline"> Projects </div></a>
-    <a href="aboutme.html">
-      <div class="underline"> About Me </div></a>
+      <div id="betweenItem">
+        <li class="nav-item">
+          <a class="nav-link underline" href="aboutme.html" style="font-size:0.9vw;"><b>ABOUT ME</b></a>
+        </li>
+      </div>
 
-      <a href="pics/RESUME_HoTsunMattew_Ho.pdf" target="_blank"><div class="underline"> Resume </div></a>
-<footer id="nav_footer">
-<u><a href="mailto:matt.hoht@gmail.com"><div class="underline">matt.hoht@gmail.com</u></div></a>
-</footer>
 
-</nav>
+      <div id="betweenItem">
+        <li class="nav-item">
+          <a class="nav-link underline" href="pics/RESUME_HoTsunMattew_Ho.pdf" style="font-size:0.9vw;" target="_blank"><b>RESUME</b></a>
+        </li>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="noShowDesktop">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse dropdown-menu dropdown-menu-right " id="navbarCollapse">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">&nbsp&nbsp&nbsp&nbspHome</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle ml-auto" data-toggle="dropdown" href="#">&nbsp&nbsp&nbsp&nbspProjects</a>
+          <div class="dropdown-menu dropdown-menu-right ml-auto">
+            <a class="dropdown-item" href="cti.html">Collaborative Travel Itinerary</a>
+            <a class="dropdown-item" href="landing.html">Product Landing Page</a>
+            <a class="dropdown-item" href="iaatk.html">It's All About the Kids</a>
+
+          </div></li>
+          <li class="nav-item">
+            <a class="nav-link" href="pics/RESUME_HoTsunMattew_Ho.pdf" target="_blank">&nbsp&nbsp&nbsp&nbspResume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">&nbsp&nbsp&nbsp&nbspAbout Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <!-- Tripsy-->
 
 
 
 <!--<div class="parallax_landing noShowMobile"></div>-->
+
+<div style="padding-top:60px;"></div>
+
 
 <div>
 <a id="shadow" href="https://xd.adobe.com/view/6be1a7e7-fcdb-4565-7a21-61c3dfeaa0a4-1dd0/?fullscreen" target="_blank">
@@ -79,13 +94,13 @@
   <h1 class="h1c">
     Product Landing Page
   </h1>
-</div>
+
   <br>
   <div id="b8font">
 
     The purpose of this landing page is to funnel customers into the call to action and increase sales of the product. I have included <a id="underline" href="https://xd.adobe.com/view/6be1a7e7-fcdb-4565-7a21-61c3dfeaa0a4-1dd0/?fullscreen" target="_blank"> a mock prototype here. </a>
 
-
+</div>
 </div>
 
 
@@ -117,7 +132,9 @@
     <b2 class=noto>
         We had conducted online surveys on platforms such as Discord and reddit to get a grasp on the struggles foreign fans have when navigating websites in foreign pages. <br>
 
+        <div id="center">
         <img src="pics/landing/sticky_notes.png" alt="" style="width:70%;">
+      </div>
     <!--
         <ul>
           <li>The site is difficult to navigate.</li>
@@ -420,9 +437,12 @@
                       <br><br><br><br><br><br><br><br><br><br><br><br>
                     </b2>
 
+
+                    <div style="padding-top:100px;">
                     <h5>
                       Product Mockup
                     </h5>
+                  </div>
 
                     <b2 class=noto>
                       <br>
@@ -439,7 +459,7 @@
                     <img src="pics/landing/main.png" alt="" style="width:100%;">
                   </a>
                     </div>
-
+    </div>
 
 
                   <div id ='reflection'>
